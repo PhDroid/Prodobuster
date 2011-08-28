@@ -22,6 +22,10 @@ public class Event implements DaoObject {
 	@DatabaseField
 	private List<String> participants;
 
+	public int getId() {
+		return id;
+	}
+
 	public Date getWhen() {
 		return when;
 	}

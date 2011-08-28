@@ -6,9 +6,14 @@ import java.util.Date;
  * Task class. Tasks can be assigned to specific day and their order is not important.
  */
 public class Task implements DaoObject {
+	private int id;
 	private String summary;
 	private String description;
 	private Date when;
+
+	public int getId() {
+		return id;
+	}
 
 	public Date getWhen() {
 		return when;
