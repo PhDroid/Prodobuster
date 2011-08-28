@@ -126,5 +126,10 @@
         <text>Followup%20on%20smth..</text>
       </controlProperties>
     </control>
+    <control controlID="60" controlTypeID="com.balsamiq.mockups::TextInput" x="342" y="168" w="129" h="-1" measuredW="126" measuredH="29" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Pending%20resume...</text>
+      </controlProperties>
+    </control>
   </controls>
 </mockup>
